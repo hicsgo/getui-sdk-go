@@ -9,6 +9,7 @@ import (
 var account *getui.Account
 
 func init() {
+
 	account = getui.NewGetUiAccount(
 		os.Getenv("APPID"),
 		os.Getenv("APPSECRET"),
